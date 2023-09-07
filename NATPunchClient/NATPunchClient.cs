@@ -46,7 +46,6 @@ public class NATPunchClient
             ServerAddr = (args[3] != null) ? args[3] : DefaultServerAddr;
 
         Console.WriteLine("getting remote ip...");
-        UPnPClient _upnp = new UPnPClient();
         
         Console.WriteLine("Client for game '{3}' (Gameserver:{0}) checking FacilitatorService: {1}:{2}",IsServer, ServerAddr, ServerPort, GameToken);
 

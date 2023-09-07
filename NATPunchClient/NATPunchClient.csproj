@@ -19,7 +19,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\LiteNetLib\LiteNetLib\LiteNetLib.csproj" />
-      <ProjectReference Include="..\Mono.Nat\Mono.Nat\Mono.Nat.csproj" />
       <ProjectReference Include="..\NatPunchFacillitator\NatPunchFacillitator.csproj" />
     </ItemGroup>
 
